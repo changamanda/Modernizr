@@ -13,7 +13,7 @@ Often times people want to know when an asynchronous test is done so they can al
 In the past, you've had to rely on watching properties or `<html>` classes. Only events on **asynchronous** tests are
 supported. Synchronous tests should be handled synchronously for improved speed and to maintain consistency.
 
-The new api looks like this:
+The new API looks like this...
 
 ```javascript
 // Listen to a test, give it a callback
